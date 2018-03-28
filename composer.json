@@ -1,0 +1,21 @@
+{
+    "name": "mac-cormick/composer-example-package",
+    "description": "Example projict",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Molyakov Anatoliy",
+            "email": "mac-cormick@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "molyakov\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
